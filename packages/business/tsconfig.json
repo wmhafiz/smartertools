@@ -1,10 +1,10 @@
 {
-  "extends": "@remix-gospel-stack/tsconfig/node18.json",
+  "extends": "@smartertools/tsconfig/node18.json",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "tsup.config.ts"],
   "compilerOptions": {
     "paths": {
-      "@remix-gospel-stack/database/*": ["../database/src/*"],
-      "@remix-gospel-stack/database": ["../database/src/index"],
+      "@smartertools/database/*": ["../database/src/*"],
+      "@smartertools/database": ["../database/src/index"],
     }
   },
   "exclude": ["node_modules"]

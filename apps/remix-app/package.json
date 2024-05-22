@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@remix-gospel-stack/remix-app",
+  "name": "@smartertools/remix-app",
   "version": "1.0.0",
   "sideEffects": false,
   "type": "module",
@@ -9,7 +9,7 @@
     "build:remix": "remix vite:build",
     "dev": "node ./server.mjs",
     "start": "cross-env NODE_ENV=production node ./server.mjs",
-    "docker:build": "cd ../.. & docker build -t remix-gospel-stack-remix-app -f ./apps/remix-app/Dockerfile .",
+    "docker:build": "cd ../.. & docker build -t smartertools-remix-app -f ./apps/remix-app/Dockerfile .",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "test": "vitest run",
     "test:cov": "vitest run --coverage",
@@ -25,10 +25,10 @@
     "docker:run:remix-app": "docker run -it --init --rm -p 3000:3000 --env-file .env.docker --env DATABASE_URL='postgresql://postgres:postgres@db:5432/postgres' --network=app_network coraalt-remix-app"
   },
   "dependencies": {
-    "@remix-gospel-stack/business": "workspace:*",
-    "@remix-gospel-stack/database": "workspace:*",
-    "@remix-gospel-stack/internal-nobuild": "workspace:*",
-    "@remix-gospel-stack/ui": "workspace:*",
+    "@smartertools/business": "workspace:*",
+    "@smartertools/database": "workspace:*",
+    "@smartertools/internal-nobuild": "workspace:*",
+    "@smartertools/ui": "workspace:*",
     "@remix-run/express": "2.9.1",
     "@remix-run/node": "2.9.1",
     "@remix-run/react": "2.9.1",
@@ -49,7 +49,7 @@
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
     "@playwright/test": "^1.43.1",
-    "@remix-gospel-stack/eslint-config": "workspace:*",
+    "@smartertools/eslint-config": "workspace:*",
     "@remix-run/dev": "2.9.1",
     "@remix-run/eslint-config": "2.9.1",
     "@swc/core": "^1.5.0",

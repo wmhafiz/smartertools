@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-import { shadcnPreset } from "@remix-gospel-stack/ui/tailwind";
+import { shadcnPreset } from "@smartertools/ui/tailwind";
 
 export default {
   content: [

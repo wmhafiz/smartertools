@@ -1,1 +1,1 @@
-module.exports = require("@remix-gospel-stack/eslint-config/base");
+module.exports = require("@smartertools/eslint-config/base");

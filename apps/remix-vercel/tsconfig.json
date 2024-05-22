@@ -17,16 +17,16 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"],
-      "@remix-gospel-stack/ui/*": [
+      "@smartertools/ui/*": [
         "../../packages/ui/src/*"
       ],
-      "@remix-gospel-stack/ui": [
+      "@smartertools/ui": [
         "../../packages/ui/src/index"
       ],
-      "@remix-gospel-stack/internal-nobuild": [
+      "@smartertools/internal-nobuild": [
         "../../packages/internal-nobuild/src/index"
       ],
-      "@remix-gospel-stack/internal-nobuild/*": [
+      "@smartertools/internal-nobuild/*": [
         "../../packages/internal-nobuild/src/*"
       ],
     },

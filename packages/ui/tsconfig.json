@@ -1,5 +1,5 @@
 {
-  "extends": "@remix-gospel-stack/tsconfig/react.json",
+  "extends": "@smartertools/tsconfig/react.json",
   "compilerOptions": {
     "module": "ESNext",
     /* Bundler mode */

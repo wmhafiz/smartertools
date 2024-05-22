@@ -6,19 +6,19 @@ import {
   useRouteError,
 } from "@remix-run/react";
 
-import { lookUpSalesPersonForZipcode } from "@remix-gospel-stack/internal-nobuild/client";
-import { getSalesPersonDirectory } from "@remix-gospel-stack/internal-nobuild/queries.server";
-import { Button } from "@remix-gospel-stack/ui/components/button";
+import { lookUpSalesPersonForZipcode } from "@smartertools/internal-nobuild/client";
+import { getSalesPersonDirectory } from "@smartertools/internal-nobuild/queries.server";
+import { Button } from "@smartertools/ui/components/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@remix-gospel-stack/ui/components/card";
-import { Checkbox } from "@remix-gospel-stack/ui/components/checkbox";
+} from "@smartertools/ui/components/card";
+import { Checkbox } from "@smartertools/ui/components/checkbox";
 
-// import { Checkbox } from "@remix-gospel-stack/ui/checkbox";
+// import { Checkbox } from "@smartertools/ui/checkbox";
 
 import Service, { helloWorld } from "~/services.server.ts";
 

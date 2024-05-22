@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    "@remix-gospel-stack/eslint-config/remix",
+    "@smartertools/eslint-config/remix",
     "plugin:storybook/recommended",
   ],
 };

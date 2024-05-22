@@ -32,31 +32,31 @@
       "~/*": [
         "./app/*"
       ],
-      "@remix-gospel-stack/ui/*": [
+      "@smartertools/ui/*": [
         "../../packages/ui/src/*"
       ],
-      "@remix-gospel-stack/ui": [
+      "@smartertools/ui": [
         "../../packages/ui/src/index"
       ],
-      "@remix-gospel-stack/business/*": [
+      "@smartertools/business/*": [
         "../../packages/business/src/*"
       ],
-      "@remix-gospel-stack/business": [
+      "@smartertools/business": [
         "../../packages/business/src/index"
       ],
-      "@remix-gospel-stack/database/*": [
+      "@smartertools/database/*": [
         "../../packages/database/src/*"
       ],
-      "@remix-gospel-stack/database": [
+      "@smartertools/database": [
         "../../packages/database/src/index"
       ],
-      "@remix-gospel-stack/internal-nobuild": [
+      "@smartertools/internal-nobuild": [
         "../../packages/internal-nobuild/src/index"
       ],
-      "@remix-gospel-stack/internal-nobuild/*": [
+      "@smartertools/internal-nobuild/*": [
         "../../packages/internal-nobuild/src/*"
       ],
-      "@remix-gospel-stack/tailwind-config": [
+      "@smartertools/tailwind-config": [
         "../../config/tailwind-config/src/index"
       ],
     },

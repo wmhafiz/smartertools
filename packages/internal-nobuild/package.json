@@ -1,5 +1,5 @@
 {
-  "name": "@remix-gospel-stack/internal-nobuild",
+  "name": "@smartertools/internal-nobuild",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -13,8 +13,8 @@
     "typecheck": "tsc --project ./tsconfig.json --noEmit"
   },
   "devDependencies": {
-    "@remix-gospel-stack/eslint-config": "workspace:*",
-    "@remix-gospel-stack/tsconfig": "workspace:*",
+    "@smartertools/eslint-config": "workspace:*",
+    "@smartertools/tsconfig": "workspace:*",
     "rimraf": "^5.0.5",
     "tsup": "^8.0.0",
     "typescript": "^5.4.5",
